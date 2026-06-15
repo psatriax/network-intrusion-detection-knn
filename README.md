@@ -1,5 +1,23 @@
 # Network Intrusion Detection System Using KNN
 
+## Results and Analysis
+
+The KNN model achieved an accuracy score of 99.49% on the NSL-KDD dataset.
+
+The confusion matrix shows that:
+
+* 11,705 attack records were correctly identified.
+* 13,363 normal traffic records were correctly classified.
+* Only 68 attack records were misclassified as normal traffic.
+* Only 59 normal records were incorrectly classified as attacks.
+
+These results indicate that the model is highly effective in distinguishing malicious network activity from legitimate traffic.
+
+From a cybersecurity perspective, minimizing False Negatives is critical because undetected attacks may lead to security incidents. The model demonstrated a strong attack detection capability with a very low number of missed attacks.
+
+Although KNN is a relatively simple machine learning algorithm, the results show that distance-based classification can provide a solid foundation for building intrusion detection systems and understanding AI applications in cybersecurity.
+
+
 ## Overview
 
 This project implements a simple Intrusion Detection System (IDS) using the K-Nearest Neighbors (KNN) algorithm. The model analyzes network traffic records and classifies them as either normal activity or potential cyber attacks.
